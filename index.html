@@ -201,12 +201,9 @@
 										<td class="starback_stat" data-bind="text: project.OpenIssues"></td>
 										<td class="starback_statDescription">Open issues</td>
 									</tr>
-                                    <tr>
-                                       <td class="starback_statIcon"><a href="readme.html"><div class="icon_contributors_cardback"></div></a></td>
-                                        <td class="starback_stat" data-bind="text: project.Tags"></td>
-                                        <td class="starback_statDescription">Tags</td>
-
-                                    </tr>   
+									<tr>
+										<td colspan="3"><div class="cardback_tags"><span data-bind="text: project.Tags"></span></div></td>
+									</tr>
 									<!-- "repo rank" is a bit confusing. 
 										 Wait for folks to ask for it.
 									<tr>

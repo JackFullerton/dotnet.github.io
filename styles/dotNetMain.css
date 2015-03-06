@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 html {
@@ -539,6 +539,12 @@ td.starback_statDescription {
 	line-height:1.1em;
 	color:#cf17fc;
 	font-weight:600;
+}
+
+.cardback_tags {
+    padding-top: 8px;
+    color:#e4cfff; 
+    font-size: 13px
 }
 
 
