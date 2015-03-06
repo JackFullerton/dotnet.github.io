@@ -1,7 +1,7 @@
 require(["jquery"], function ($) {
     $(document).ready(function () {
-    	var projectsTopUrl = "https://dnfrepos.blob.core.windows.net/output/projects_top.json";
-    	var projectsUrl = "https://dnfrepos.blob.core.windows.net/output/projects.json"; 
+    	var projectsTopUrl = "https://jackossstore.blob.core.windows.net/output/projects_top.json";
+    	var projectsUrl = "https://jackossstore.blob.core.windows.net/output/projects.json";
 
     	$.getJSON(projectsTopUrl, function(data)
     	{
